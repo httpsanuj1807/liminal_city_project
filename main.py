@@ -60,9 +60,6 @@ elif o == "HARD":
     num_of_enemies = 3
 
 for i in range(num_of_enemies):
-    # Game Over
-    # if enemy1_X[i] <= playerY_change+11:
-    #   for j in range(num_of_enemies):
 
     enemy1_png.append(pygame.image.load('enemy1.png'))
     enemy1_X.append(random.randint(1, 1020))
