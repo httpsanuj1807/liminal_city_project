@@ -16,7 +16,7 @@ screen = pygame.display.set_mode((1024, 768))  # ((width, height))
 background = pygame.image.load('bg_final.gif')
 score: int = 0
 
-# Background Sound
+
 
 mixer.music.load('bg_audio.mp3')
 mixer.music.play(-1)
@@ -92,12 +92,11 @@ font = pygame.font.Font('gtavc_regular.ttf', 36)
 textX = 10
 textY = 10
 
-
-def show_score(x, y):
-    score = font.render("Score -> " + str(score_value), True, (197, 70, 156))
-    screen.blit(score, (x, y))
+#score fnc
+def show_score(x,y):
+    score=font.render("Score -> " + str(score_value),True,(197,70,156))
+    screen.blit(score,(x,y))
     return score
-
 
 def fire_level1bullet(x, y):
     global level1bullet_state
