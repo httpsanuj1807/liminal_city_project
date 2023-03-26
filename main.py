@@ -92,12 +92,11 @@ font = pygame.font.Font('gtavc_regular.ttf', 36)
 textX = 10
 textY = 10
 
-
-def show_score(x, y):
-    score = font.render("Score -> " + str(score_value), True, (197, 70, 156))
-    screen.blit(score, (x, y))
+#score fnc
+def show_score(x,y):
+    score=font.render("Score -> " + str(score_value),True,(197,70,156))
+    screen.blit(score,(x,y))
     return score
-
 
 def fire_level1bullet(x, y):
     global level1bullet_state
