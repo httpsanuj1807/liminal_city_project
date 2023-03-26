@@ -9,7 +9,7 @@ import math
 # Initialize The Pygame
 pygame.init()
 
-# create the screen
+
 screen = pygame.display.set_mode((1024, 768))  # ((width, height))
 
 # Background 1
