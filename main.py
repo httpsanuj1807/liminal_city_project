@@ -16,7 +16,7 @@ screen = pygame.display.set_mode((1024, 768))  # ((width, height))
 background = pygame.image.load('bg_final.gif')
 score: int = 0
 
-# Background Sound
+
 
 mixer.music.load('bg_audio.mp3')
 mixer.music.play(-1)
